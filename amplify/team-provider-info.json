@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-personalfinanceapp-dev-211643-authRole",
+      "UnauthRoleArn": "arn:aws:iam::582393984174:role/amplify-personalfinanceapp-dev-211643-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::582393984174:role/amplify-personalfinanceapp-dev-211643-authRole",
+      "Region": "sa-east-1",
+      "DeploymentBucketName": "amplify-personalfinanceapp-dev-211643-deployment",
+      "UnauthRoleName": "amplify-personalfinanceapp-dev-211643-unauthRole",
+      "StackName": "amplify-personalfinanceapp-dev-211643",
+      "StackId": "arn:aws:cloudformation:sa-east-1:582393984174:stack/amplify-personalfinanceapp-dev-211643/6634aac0-5f0b-11ed-a22f-0211d2092a50",
+      "AmplifyAppId": "d3tn321cxpxsgj"
+    }
+  }
+}

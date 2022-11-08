@@ -14,7 +14,7 @@ class _ActivityCardState extends State<ActivityCard> {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 30.0),
       width: double.infinity,
-      height: 300.0,
+      height: 350.0,
       decoration: const BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.all(Radius.circular(20.0)),

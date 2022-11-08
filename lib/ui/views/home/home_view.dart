@@ -23,8 +23,9 @@ class HomeView extends StatelessWidget {
           const AccountsHeader(),
           const SizedBox(height: 20.0),
           const Accounts(),
+          const SizedBox(height: 05.0),
+          const ActivityCard(),
           const SizedBox(height: 20.0),
-          const ActivityCard()
         ],
       ),
       leading: Container(

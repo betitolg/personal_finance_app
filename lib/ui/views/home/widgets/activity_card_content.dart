@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:personal_finance_app/ui/components/theme/app_colors.dart';
+import 'package:personal_finance_app/ui/views/home/widgets/activity_chart.dart';
 
 class ActivityCardContent extends StatelessWidget {
   const ActivityCardContent({Key? key}) : super(key: key);
@@ -65,6 +66,7 @@ class ActivityCardContent extends StatelessWidget {
               ),
             ],
           ),
+          const ActivityChart()
         ],
       ),
     );

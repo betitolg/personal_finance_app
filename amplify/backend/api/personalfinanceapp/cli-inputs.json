@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "personalfinanceapp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/danielalbertolopezgrandez/CursoFlutter-AcademiasMoviles/personal_finance_app/amplify/backend/api/personalfinanceapp/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
