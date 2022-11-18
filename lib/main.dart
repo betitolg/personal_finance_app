@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:personal_finance_app/ui/views/home/home_view.dart';
+import 'package:personal_finance_app/ui/views/records/records_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,6 +17,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const HomeView());
+        home: const RecordsView());
   }
 }
