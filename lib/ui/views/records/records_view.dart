@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:personal_finance_app/ui/components/template/custom_bottom_navigation.dart';
 import 'package:personal_finance_app/ui/components/template/custom_scaffold.dart';
+import 'package:personal_finance_app/ui/views/records/widgets/custom_tab_controller.dart';
 
 class RecordsView extends StatelessWidget {
   const RecordsView({Key? key}) : super(key: key);
@@ -11,7 +12,8 @@ class RecordsView extends StatelessWidget {
       title: const Center(
           child: Text('Records', style: TextStyle(color: Colors.black))),
       body: ListView(
-        children: [],
+        // ignore: prefer_const_constructors
+        children: const [CustomTabController()],
       ),
       actions: [
         Container(
