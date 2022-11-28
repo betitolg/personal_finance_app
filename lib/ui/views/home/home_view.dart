@@ -31,7 +31,12 @@ class HomeView extends StatelessWidget {
         ),
         leading: Container(
             margin: const EdgeInsets.only(left: 30.0),
-            child: const Icon(Icons.sort, color: Colors.grey)),
+            child: GestureDetector(
+              child: const Icon(Icons.sort, color: Colors.grey),
+              onTap: () {
+                Navigator.pushNamed(context, '/second');
+              },
+            )),
         // ignore: prefer_const_literals_to_create_immutables
         actions: [
           const Icon(Icons.notifications, color: Colors.grey),

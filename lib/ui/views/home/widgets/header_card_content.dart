@@ -66,8 +66,30 @@ class HeaderCardContent extends StatelessWidget {
               ),
             ],
           ),
-          SizedBox(height: 20.0),
-          Text("S/.")
+          const SizedBox(height: 20.0),
+          Row(
+            // ignore: prefer_const_literals_to_create_immutables
+            children: [
+              const Text("S/."),
+              const SizedBox(width: 5.0),
+              const Text(
+                "8500",
+                style: TextStyle(
+                  fontSize: 45.0,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(
+            height: 3.0,
+          ),
+          const Text(
+            "Income +25% | Expense -10%",
+            style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 13.0,
+                color: Colors.grey),
+          ),
         ],
       ),
     );

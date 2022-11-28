@@ -12,11 +12,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Flutter Demo',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home: const HomeView());
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      initialRoute: '/',
+      routes: {
+        // Cuando naveguemos hacia la ruta "/", crearemos el Widget FirstScreen
+        '/': (context) => const HomeView(),
+        // Cuando naveguemos hacia la ruta "/second", crearemos el Widget SecondScreen
+        '/second': (context) => const RecordsView(),
+      },
+    );
   }
 }
